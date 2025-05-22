@@ -1,7 +1,7 @@
 Package: DLSSM
 Type: Package
 Title: Dynamic Logistic State Space Prediction Model
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: c(
     person("Jiakun", "Jiang", email = "jiakunj@bnu.edu.cn", role = c("aut", "cre")),
     person("Wei", "Yang", email = "weiyang@pennmedicine.upenn.edu",role = "aut"),
@@ -20,10 +20,11 @@ Depends: R (>= 3.10)
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0), withr
 VignetteBuilder: knitr
 Config/testthat/edition: 3
+SystemRequirements: Intel MKL (optional for enhanced performance)
 NeedsCompilation: no
-Packaged: 2025-03-17 09:09:33 UTC; jiakun
+Packaged: 2025-05-18 15:48:47 UTC; jiakun
 Author: Jiakun Jiang [aut, cre],
   Wei Yang [aut],
   Wensheng Guo [aut]
 Repository: CRAN
-Date/Publication: 2025-03-17 12:10:02 UTC
+Date/Publication: 2025-05-22 05:10:16 UTC
